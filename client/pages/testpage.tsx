@@ -1,6 +1,7 @@
 import React, { ReactElement, useEffect, useRef, useState } from 'react';
 import SimpleLayout from '../components/Layouts/SimpleLayout';
 import TestComponent from '../components/TestComponent';
+import AsyncStuff from '../sandboxes/nikita/AsyncStuff';
 
 interface Props {}
 
@@ -10,6 +11,7 @@ function Testpage({}: Props): ReactElement {
       <TestComponent />
       <TestComponent />
       <TestComponent />
+      <AsyncStuff />
     </div>
   );
 }
