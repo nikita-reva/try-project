@@ -1,12 +1,15 @@
-import React, { ReactElement } from 'react';
+import React, { ReactElement, useEffect, useRef, useState } from 'react';
 import SimpleLayout from '../components/Layouts/SimpleLayout';
+import TestComponent from '../components/TestComponent';
 
 interface Props {}
 
 function Testpage({}: Props): ReactElement {
   return (
     <div>
-      <h1>Test</h1>
+      <TestComponent />
+      <TestComponent />
+      <TestComponent />
     </div>
   );
 }
