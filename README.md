@@ -26,10 +26,16 @@ A more comprehensive guide can be found [here](https://www.atlassian.com/git).
 ```git branch branch_name```
 * Switch to another branch:
 ```git checkout branch_name```
-* View all existing branches:
+* View all active branch:
 ```git branch```
+* View all existing branches:
+```git branch -a```
 * Delete a branch:
 ```git branch -d branch_name```
+* Lists all commits (code snapshots) for this branch:
+```git log```
+* Checkout the specific commit:
+```git checkout commit_id```
 * Stage all changes:
 ```git add .```
 * Commit changes with a meaningful message (-m stands for message, e.g. "Initial commit"):
