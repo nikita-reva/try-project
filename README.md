@@ -40,7 +40,7 @@ A more comprehensive guide can be found [here](https://www.atlassian.com/git).
 ```git add .```
 * Stage all changes:
 ```git add .```
-* Alternatively selected files can be staged, e.g.: 
+* Alternatively selected files can be staged, e.g.:  
 ```git add index.html``` (stages all a single "index.html" file)  
 ```git add Documentation/\*.txt``` (stages all ".txt"-files in the Documentation folder)  
 ```git add git-*.sh``` (stages all ".sh"-scripts with the "git-"-prefix)  
