@@ -24,7 +24,7 @@ A more comprehensive guide can be found [here](https://www.atlassian.com/git).
 ```git checkout -b branch_name```
 * Create a new branch (choose a meaningful branch name):
 ```git branch branch_name```
-* Rename a bracnch:
+* Rename a branch:
 ```git branch -m old_branch_name new_branch_name```
 * Switch to another branch:
 ```git checkout branch_name```
