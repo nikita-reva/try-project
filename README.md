@@ -32,12 +32,20 @@ A more comprehensive guide can be found [here](https://www.atlassian.com/git).
 ```git branch```
 * View all existing branches:
 ```git branch -a```
-* Delete a branch:
+* View all remote branches:
+```git branch -r```
+* Delete a local branch:
 ```git branch -d branch_name```
+* Delete a local branch with unmerged changes:
+```git branch -D branch_name```
+* Delete a remote branch:
+```git push origin --delete branch_name```
 * Lists all commits (code snapshots) for this branch:
 ```git log```
-* Checkout the specific commit:
+* Checkout a specific commit:
 ```git checkout commit_id```
+* Switch to a a specific commit (deletes subsequent commits):
+```git reset --hard commit_id```
 * Stage all changes:
 ```git add .```
 * Stage all changes:
